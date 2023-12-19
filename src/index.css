@@ -1,4 +1,5 @@
 body {
+  background-color: gainsboro;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,27 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1{
+  margin-left: 30px;
+  color: rgb(109, 108, 108);
+}
+
+h3{
+  margin-left: 50px;
+}
+
+input{
+  margin-left: 40px;
+}
+
+.userli{
+  margin-bottom: 15px;
+  border: 1px solid black;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 40px;
+  list-style: none;
 }
